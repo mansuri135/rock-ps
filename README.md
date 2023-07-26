@@ -2,6 +2,8 @@
 
 RPS Clash is a web-based Rock Paper Scissors game that allows users to play against a computer opponent. The objective of the game is to defeat the computer by choosing the winning move in each round.
 
+Deployed at [RPS Clash](rps-clash.vercel.app)
+
 ## Features
 
 - Play Rock Paper Scissors against the computer.

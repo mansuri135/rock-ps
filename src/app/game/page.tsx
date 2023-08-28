@@ -51,7 +51,7 @@ function GamePage() {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [state.roundCounter]);
-
+  const currentYear = new Date().getFullYear();
   return (
     <div className="w-full min-h-screen bg-primary flex flex-col select-none relative">
       <Scores />
@@ -61,6 +61,32 @@ function GamePage() {
       <ToggleButton />
       <ButtonBox />
       <BombAnimation />
+      <footer className=" mt-0 items-center text-black absolute justify-center bottom-0 ">
+        &copy; {currentYear}{" "}
+        <a
+          href="https://kmaar.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "inherit",
+            textDecoration: "none",
+          }}
+        >
+          Abhishek Kumar
+        </a>
+        . All rights reserved. | Powered by{" "}
+        <a
+          href="https://kmstudio.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "inherit",
+            textDecoration: "none",
+          }}
+        >
+          KMaar Miscellaneous Studio
+        </a>
+      </footer>
     </div>
   );
 }

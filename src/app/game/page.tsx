@@ -61,32 +61,7 @@ function GamePage() {
       <ToggleButton />
       <ButtonBox />
       <BombAnimation />
-      <footer className=" mt-0 items-center text-black absolute justify-center bottom-0 ">
-        &copy; {currentYear}{" "}
-        <a
-          href="https://kmaar.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            color: "inherit",
-            textDecoration: "none",
-          }}
-        >
-          Abhishek Kumar
-        </a>
-        . All rights reserved. | Powered by{" "}
-        <a
-          href="https://kmstudio.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            color: "inherit",
-            textDecoration: "none",
-          }}
-        >
-          KMaar Miscellaneous Studio
-        </a>
-      </footer>
+      
     </div>
   );
 }
